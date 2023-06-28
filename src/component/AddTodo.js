@@ -43,7 +43,7 @@ class AddTodo extends Component {
 
       const jsonObject = {
         id: this.state.id,
-        task: this.task.content,
+        task: this.state.content,
         currentDate: this.state.date,
         dueDate: this.state.duedate
      };
